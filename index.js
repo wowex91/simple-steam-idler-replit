@@ -91,7 +91,7 @@ var username6 = process.env.username6;
 var password6 = process.env.password6;
 var shared_secret6 = process.env.shared6;
 
-var games6 = [730, 570, 440];  // Enter here AppIDs of the needed games
+var games6 = [730];  // Enter here AppIDs of the needed games
 var status6 = 1;  // 1 - online, 7 - invisible
 
 
@@ -108,7 +108,7 @@ var username5 = process.env.username5;
 var password5 = process.env.password5;
 var shared_secret5 = process.env.shared5;
 
-var games5 = [730, 570, 440];  // Enter here AppIDs of the needed games
+var games5 = [730];  // Enter here AppIDs of the needed games
 var status5 = 1;  // 1 - online, 7 - invisible
 
 
