@@ -104,12 +104,12 @@ user6.on('loggedOn', () => {
 });
 
 
-var username5 = process.env.username5;
-var password5 = process.env.password5;
-var shared_secret5 = process.env.shared5;
+var username7 = process.env.username7;
+var password7 = process.env.password7;
+var shared_secret7 = process.env.shared7;
 
-var games5 = [730];  // Enter here AppIDs of the needed games
-var status5 = 1;  // 1 - online, 7 - invisible
+var games7 = [730];  // Enter here AppIDs of the needed games
+var status7 = 1;  // 1 - online, 7 - invisible
 
 
 user7 = new steamUser();
