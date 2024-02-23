@@ -87,19 +87,3 @@ user5.on('loggedOn', () => {
 });
 
 
-var username6 = process.env.username6;
-var password6 = process.env.password6;
-var shared_secret6 = process.env.shared6;
-
-var games6 = [730];  // Enter here AppIDs of the needed games
-var status6 = 1;  // 1 - online, 7 - invisible
-
-
-user6 = new steamUser();
-user6.logOn({"accountName": username6, "password": password6, "twoFactorCode": steamTotp.generateAuthCode(shared_secret)});
-user6.on('loggedOn', () => {
-	if (user6.steamID != null) console.log(user6.steamID + ' - Successfully logged on');
-	user6.setPersona(status);               
-	user6.gamesPlayed(games);
-});
-
